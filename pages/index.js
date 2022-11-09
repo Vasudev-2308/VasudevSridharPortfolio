@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
-import Accomplishments from "../components/Accomplishments/Accomplishments";
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {
@@ -14,11 +13,12 @@ export default function Home() {
         <title>Vdx's Portfolio</title>
       </Head>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Projects />
       <Technologies/>
-      <Accomplishments/>
-      <Footer/>
+      <Accomplishments/> */}
+      {/* <Footer/> */}
+
     </div>
   );
 }
