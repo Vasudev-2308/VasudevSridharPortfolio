@@ -5,6 +5,7 @@ import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Footer from "../components/Footer/Footer";
+import About from "../components/About/About";
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
       <Head>
         <title>Vdx's Portfolio</title>
       </Head>
-      <Navbar />
-      {/* <Hero />
-      <Projects />
+      <Navbar/>
+       <Hero />
+       <About/>
+      { /*<Projects />
       <Technologies/>
       <Accomplishments/> */}
       {/* <Footer/> */}

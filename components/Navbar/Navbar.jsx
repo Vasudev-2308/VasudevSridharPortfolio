@@ -112,16 +112,16 @@ const Navbar = () => {
               Connect with me on
             </p>
             <div className="flex items-center justify-between my-2 sm:w-[80%]">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-lg shadow-blue-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaLinkedinIn size="20" />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaGithub size="20" />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-rose-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaInstagram size="20" />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-red-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <SiGmail size="20" />
               </div>
             </div>
