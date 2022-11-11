@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-100 shadow-xl z-[100]">
+    <div className="fixed w-full h-100 shadow-xl z-10">
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/Assets/Logo.png"

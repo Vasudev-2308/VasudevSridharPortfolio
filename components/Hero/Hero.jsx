@@ -20,7 +20,7 @@ const Hero = () => {
             A <span className="text-[#5651ae]">Software Engineer</span> & <span className="text-rose-600">Musician.</span>
           </h1>
               <p className="pt-4 uppercase my-2 text-md tracking-widest text-gray-700 ">
-                A Coder, Musician and Epistemophile. 
+                A Coder, <span className="italic">Musician</span> and Epistemophile. 
               </p>
               <p className="uppercase my-2 text-md tracking-widest text-gray-700 ">
               Software Engineer @<span className="text-rose-600">Unisys</span> India.

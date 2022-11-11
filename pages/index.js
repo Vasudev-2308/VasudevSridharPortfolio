@@ -16,8 +16,9 @@ export default function Home() {
       <Navbar/>
        <Hero />
        <About/>
+       <Technologies/>
       { /*<Projects />
-      <Technologies/>
+      
       <Accomplishments/> */}
       {/* <Footer/> */}
 
