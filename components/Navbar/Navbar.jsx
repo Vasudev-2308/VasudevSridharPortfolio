@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { RiMenu3Line } from "react-icons/ri";
@@ -7,12 +7,34 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
     setNav(!nav);
   };
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener('scroll', handleShadow);
+  }, []);
+
   return (
-    <div className="fixed w-full h-100 shadow-xl z-10">
+    <div
+      style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow
+          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-20 z-[100]'
+      }
+    >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/Assets/Logo.png"

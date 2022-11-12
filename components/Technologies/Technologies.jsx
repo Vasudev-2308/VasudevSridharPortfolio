@@ -2,22 +2,22 @@
 import React from "react";
 import Image from 'next/image';
 import Constants from '../../Constants/ImageConstants.json'
-import LanguageProp from '../../components/LanguageProp'
+import LanguageProp from './LanguageProp'
 
 const Technologies = () => {
   
   return (
     <div className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className=" uppercase text-purple-900 text-xl tracking-widest ">
           //Skill Showcase
         </p>
-        <h1>What all can i do ?</h1>
-      </div>
+        <h1 className="py-4">What all can i do ?</h1>
       <p className="py-4 uppercase text-purple-900 text-xl tracking-widest mx-4">
         Languages
       </p>
-      <div className="grid lg:grid-cols-3 gap-8">
+
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
         <LanguageProp
         image={Constants.python.image}
         title={Constants.python.title}
@@ -58,13 +58,14 @@ const Technologies = () => {
         title={Constants.HTML.title}
         alt={Constants.HTML.alt}
         />
-        
-      </div>
 
-      <p className="py-4 uppercase text-purple-900 text-xl tracking-widest mx-4">
-        Frameworks & Tools
+        </div>
+
+      <p className="py-6 uppercase text-purple-900 text-xl tracking-widest mx-4">
+        Frameworks and Tools
       </p>
-      <div className=" m-4 grid md:grid-cols-3 lg:grid-cols-3 gap-16 flex items-center">
+
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
       <LanguageProp
         image={Constants.Flutter.image}
         title={Constants.Flutter.title}
@@ -105,6 +106,7 @@ const Technologies = () => {
         title={Constants.NodeJS.title}
         alt={Constants.NodeJS.alt}
         /> 
+      </div>
       </div>
     </div>
   );
