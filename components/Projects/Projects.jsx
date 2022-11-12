@@ -8,7 +8,7 @@ import eVote from '../../public/Assets/Project4.png'
 
 const Projects = () => {
   return (
-    <div className='w-full'>
+    <div id="projects" className='w-full'>
         <div className="max-w-[1240px] mx-auto px-2 py-16">
             <p className="text-xl tracking-widest uppercase text-purple-900">//Projects</p>
             <h1 className="py-4">What all have i built ?</h1>

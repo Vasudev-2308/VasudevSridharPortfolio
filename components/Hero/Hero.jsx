@@ -9,7 +9,7 @@ const Hero = () => {
 
   const text = ["Code", "Collab", "Bond"]
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-gray-700">

@@ -8,8 +8,7 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState("#ecf0f3");
 
   const handleNav = () => {
     setNav(!nav);
@@ -23,7 +22,7 @@ const Navbar = () => {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener("scroll", handleShadow);
   }, []);
 
   return (
@@ -31,11 +30,12 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
+          : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
+        <Link href="/#home" scroll={false} >
         <Image
           src="/../public/Assets/Logo.png"
           alt="/"
@@ -43,23 +43,25 @@ const Navbar = () => {
           height="70"
           className="cursor-pointer py-2"
         />
+        </Link>
+        
         <div>
           <ul className="hidden md:flex px-5">
-            <Link href="/">
+            <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects & Accomplishments
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -74,7 +76,9 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+        }
       >
         <div
           className={
@@ -134,7 +138,7 @@ const Navbar = () => {
               Connect with me on
             </p>
             <div className="flex items-center justify-between my-2 sm:w-[80%]">
-            <div className="rounded-full shadow-lg shadow-blue-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="rounded-full shadow-lg shadow-blue-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FaLinkedinIn size="20" />
               </div>
               <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
