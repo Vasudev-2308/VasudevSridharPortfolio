@@ -14,12 +14,12 @@ export default function Home() {
         <title>Vdx's Portfolio</title>
       </Head>
       <Navbar/>
-       <Hero />
-       <About/>
-       <Technologies/>
-      { /*<Projects />
+      <Hero />
+      <About/>
+      <Technologies/>
+      {/* <Projects />  */}
       
-      <Accomplishments/> */}
+     
       {/* <Footer/> */}
 
     </div>

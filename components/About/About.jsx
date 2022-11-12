@@ -5,9 +5,9 @@ import React from 'react'
 const About = () => {
   return (
     <div className="w-full md:h-screen p-2 flex items-center py-16 " >
-        <div className="max-w-[1200] m-auto md:grid grid-cols-3 gap-8 flex items-center justify-center">
+        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 ">
             <div className="col-span-2 mx-3"> 
-            <p className=" py-4 uppercase text-purple-900 text-xl tracking-widest">//About Me</p>
+            <p className=" uppercase text-purple-900 text-xl tracking-widest">//About Me</p>
             <h1>Who am I ?</h1>
             <p className="py-4 text-justify  text-md text-gray-600">Proident consectetur nostrud amet et. Nisi excepteur ad eiusmod non in do. Excepteur excepteur sunt quis occaecat laboris nostrud elit exercitation culpa ullamco ex dolore. In veniam dolor eiusmod laboris est incididunt qui laboris nisi tempor deserunt proident in. Reprehenderit dolore excepteur nisi elit et cupidatat. Eu adipisicing qui ea ipsum nisi ad proident dolor dolore duis et tempor minim labore. Nulla eiusmod velit fugiat Lorem et reprehenderit mollit.</p>
             <p className="text-justify text-md text-gray-600">Proident consectetur nostrud amet et. Nisi excepteur ad eiusmod non in do. Excepteur excepteur sunt quis occaecat laboris nostrud elit exercitation culpa ullamco ex dolore. In veniam dolor eiusmod laboris est incididunt qui laboris nisi tempor deserunt proident in. Reprehenderit dolore excepteur nisi elit et cupidatat. Eu adipisicing qui ea ipsum nisi ad proident dolor dolore duis et tempor minim labore. Nulla eiusmod velit fugiat Lorem et reprehenderit mollit.</p>

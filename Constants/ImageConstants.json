@@ -1,0 +1,84 @@
+{
+  "python": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "title": "Python",
+    "alt": "Python"
+  },
+  "java": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    "title": "Java",
+    "alt": "Java"
+  },
+  "C": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    "title": "C",
+    "alt": "C"
+  },
+  "C++": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    "title": "C++",
+    "alt": "C++"
+  },
+  "Dart": {
+    "image": "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg",
+    "title": "Dart",
+    "alt": "Dart"
+  },
+  "Javascript": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    "title": "JavaScript",
+    "alt": "JS"
+  },
+  "MySQL": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    "title": "MySQL",
+    "alt": "sql"
+  },
+  "HTML": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+    "title": "HTML",
+    "alt": "html"
+  },
+  "BootStrap": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+    "title": "BootStrap",
+    "alt": "BootStrap"
+  }, 
+  "Git": {
+    "image": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+    "title": "Git",
+    "alt": "Git"
+  }, 
+  "Flask": {
+    "image": "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
+    "title": "Flask",
+    "alt": "Flask"
+  }, 
+  "ReactJS": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "title": "ReactJS",
+    "alt": "ReactJS"
+  }, 
+  "NodeJS": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    "title": "NodeJS",
+    "alt": "NodeJS"
+  }, 
+  "MongoDB": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+    "title": "MongoDB",
+    "alt": "MongoDB"
+  }, 
+  "Flutter": {
+    "image": "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
+    "title": "Flutter",
+    "alt": "Flutter"
+  }, 
+  "Android": {
+    "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg",
+    "title": "Android",
+    "alt": "Android"
+  }
+
+
+}
