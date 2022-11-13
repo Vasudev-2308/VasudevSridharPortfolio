@@ -1,9 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { RiMenu3Line } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai";
+import Contacts from "../../Constants/links.json";
 
 const Hero = () => {
 
@@ -28,16 +27,24 @@ const Hero = () => {
 
               <div className="flex justify-between sm:justify-around items-center max-w-[330px] m-auto py-4">
               <div className="rounded-full shadow-lg shadow-blue-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a href={Contacts.linkedin}>
                 <FaLinkedinIn size="25" />
+                </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-800 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a href={Contacts.github}>
                 <FaGithub size="25" />
+                </a>
               </div>
               <div className="rounded-full shadow-lg shadow-rose-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a href={Contacts.instagram}>
                 <FaInstagram size="25" />
+                </a>
               </div>
               <div className="rounded-full shadow-lg shadow-red-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a href={Contacts.mail}>
                 <SiGmail size="25" />
+                </a>
               </div>
               </div>
         </div>

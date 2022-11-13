@@ -5,6 +5,7 @@ import { RiMenu3Line } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
+import Contacts from "../../Constants/links.json";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -109,48 +110,28 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="">
-              <Link href="/">
+              <Link href="/#home">
                 <li className="py-4 text-sm uppercase hover:border-b">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about">
                 <li className="py-4 text-sm uppercase hover:border-b">About</li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="py-4 text-sm uppercase hover:border-b">
                   Skills
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="py-4 text-sm uppercase hover:border-b">
                   Projects & Accomplishments
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="py-4 text-sm uppercase hover:border-b">
                   Contact
                 </li>
               </Link>
             </ul>
-          </div>
-
-          <div className="pt-40 ">
-            <p className="uppercase tracking-widest text-[#5651e5]">
-              Connect with me on
-            </p>
-            <div className="flex items-center justify-between my-2 sm:w-[80%]">
-              <div className="rounded-full shadow-lg shadow-blue-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaLinkedinIn size="20" />
-              </div>
-              <div className="rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaGithub size="20" />
-              </div>
-              <div className="rounded-full shadow-lg shadow-rose-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaInstagram size="20" />
-              </div>
-              <div className="rounded-full shadow-lg shadow-red-600 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <SiGmail size="20" />
-              </div>
-            </div>
           </div>
         </div>
       </div>
