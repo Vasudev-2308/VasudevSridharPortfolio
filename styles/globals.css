@@ -12,7 +12,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    @apply bg-[#250940] text-[#ecf0f3] tracking-wide;
     
   }
 
@@ -22,7 +22,8 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold;
+    @apply font-bold text-[#ecf0f3];
+    
   }
 
   h1 {

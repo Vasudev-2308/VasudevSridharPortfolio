@@ -9,7 +9,7 @@ import Contacts from "../../Constants/links.json";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#250940");
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,14 +31,14 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
+          ? "fixed w-full h-20 shadow-xl shadow-purple-700 z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home" scroll={false} >
         <Image
-          src="/../public/Assets/Logo.png"
+          src="/../public/Assets/Logo2.png"
           alt="/"
           width="125"
           height="70"
@@ -84,14 +84,14 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#250940] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#250940] p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex justify-between items-center">
               <Image
-                src="/../public/Assets/Logo.png"
+                src="/../public/Assets/Logo2.png"
                 alt="/"
                 width="105"
                 height="65"
