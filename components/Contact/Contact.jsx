@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Contacts from "../../Constants/links.json";
 import { BsChevronDoubleUp } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
@@ -9,7 +9,58 @@ import workImg from "../../public/Assets/work.png";
 import Link from "next/link";
 
 const Contact = () => {
+  const [email, setEmail] = useState("John.Doe@example.com"); 
+  const [name, setName] = useState("John Doe"); 
+  const [number, setNumber] = useState("70xxxxxxxx"); 
+  const [subject, setSubject] = useState("You Rock Buddy"); 
+  const [message, setMessage] = useState("Wanna Collab ?");
+
+  let handleName = (evnt) => {
+    let inputVal = evnt.target.value;
+    setName(inputVal);
+  }
+
+  let handleEmail = (evnt) => {
+    let inputVal = evnt.target.value;
+    setEmail(inputVal);
+  }
+  let handleSubject = (evnt) => {
+    let inputVal = evnt.target.value;
+    setSubject(inputVal);
+  }
+  let handlePh = (evnt) => {
+    let inputVal = evnt.target.value;
+    setNumber(inputVal);
+  }
+  let handleMessage = (evnt) => {
+    let inputVal = evnt.target.value;
+    setMessage(inputVal);
+  }
+
+  const sendMail = async (e) =>{
+    e.preventDefault();
+   
+   const results = await fetch('/pages/api/communicate', {
+    method:"POST",
+    body: JSON.stringify({
+      email: email, 
+      phno : number, 
+      name : name, 
+      sub: subject, 
+      msg: message
+    })
+   }); 
+
+   if(results.status == 200){
+    alert(`Thanks ${name}, your message has been successfully sent to Vdx`);
+   }
+   else{
+    alert("Failed to Send the mail");
+   }
+  }
+
   return (
+
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#ecf0f3]">
@@ -62,7 +113,7 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 bg-[#afb5f9] rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form onSubmit={sendMail} method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2" htmlFor="name">
@@ -71,6 +122,9 @@ const Contact = () => {
                     <input
                       className="border-2 bg-gray-800 rounded-lg p-3 flex border-gray-200"
                       type="text"
+                      
+                      placeholder={name}
+                      onChange={handleName}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -80,6 +134,9 @@ const Contact = () => {
                     <input
                       className="border-2 bg-gray-800 rounded-lg p-3 flex border-gray-200"
                       type="number"
+                      
+                      placeholder={number}
+                      onChange={handlePh}
                     />
                   </div>
                 </div>
@@ -90,6 +147,9 @@ const Contact = () => {
                   <input
                     className="border-2 bg-gray-800 rounded-lg p-3 flex border-gray-200"
                     type="email"
+                    
+                    placeholder={email}
+                    onChange={handleEmail}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -99,6 +159,9 @@ const Contact = () => {
                   <input
                     className="border-2 bg-gray-800 rounded-lg p-3 flex border-gray-200"
                     type="text"
+                    
+                    placeholder={subject}
+                    onChange={handleSubject}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -108,6 +171,9 @@ const Contact = () => {
                   <textarea
                     className="border-2 bg-gray-800 rounded-lg p-3 border-gray-200"
                     rows="7"
+                    
+                    placeholder={message}
+                    onChange={handleMessage}
                   />
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">

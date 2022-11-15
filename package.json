@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "smtpjs": "^0.0.1",
+    "sparkpost": "^2.1.4",
     "styled-components": "^5.3.6",
     "styled-normalize": "^8.0.7"
   },
