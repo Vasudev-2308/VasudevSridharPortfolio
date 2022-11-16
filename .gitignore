@@ -30,8 +30,12 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
-
+.idea/
+.vs/
+.env
+.pk
+.pem
+.pub
 # vercel
 .vercel
 
