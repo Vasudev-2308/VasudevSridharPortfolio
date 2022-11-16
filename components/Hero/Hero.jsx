@@ -26,13 +26,15 @@ const Hero = () => {
             Software Engineer @<span className="text-rose-600">Unisys</span>.
           </p>
           <div className="flex flex-row items-center justify-center ">
-            <div className="rounded-full  bg-green-900 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
-              <FiMapPin size="20" />
-            </div>
+            <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
+              <div className="rounded-full  bg-green-900 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                <FiMapPin size="20" />
+              </div>
+            </a>
             <p className="py-12 px-5 my-4 text-blue-300">Bangalore, India.</p>
           </div>
 
-          <div className="flex justify-between sm:justify-around items-center max-w-[330px] m-auto py-4">
+          <div className="flex justify-around sm:justify-around items-center max-w-[530px] m-auto py-4">
             <div className="rounded-full bg-blue-600 shadow-lg shadow-blue-300 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
               <a href={Contacts.linkedin}>
                 <FaLinkedinIn size="25" />

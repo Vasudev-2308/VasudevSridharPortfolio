@@ -7,6 +7,8 @@ Constants/links.json
 /.pnp
 .pnp.js
 
+.gitignore
+
 #constants
 
 # testing
