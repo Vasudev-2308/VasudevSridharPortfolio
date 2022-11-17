@@ -86,9 +86,9 @@ const Contact = () => {
                 <p className="text-[#250940] text-center ">Message me to connect and collab</p>
                 <p className="text-[#250940] text-center ">Ph: +91 7090602915</p>
               </div>
-              <div className="flex items-center  justify-around py-4 mx-16 max-w-[530px]">
+              <div className="flex items-center  justify-around py-4 m-auto max-w-[530px]  ">
                 <a href={Contacts.linkedin} target="_blank" rel="noreferrer">
-                  <div className="rounded-full bg-blue-600 shadow-lg shadow-blue-300 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full bg-blue-600 shadow-lg shadow-blue-300 p-5 cursor-pointer hover:scale-105 ease-in duration-300 sm:mx-2">
                     <FaLinkedinIn />
                   </div>
                 </a>
