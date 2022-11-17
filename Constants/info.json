@@ -1,0 +1,22 @@
+{
+  "Project1": {
+    "title": "Agrobuddy",
+    "domain":"Edge-AI",
+    "desc": "Agrobuddy is project built using the Edge-AI paradigm which is an amalgamation of two completely different technologies Edge Computing and Artificial Intelligence into creating one new entity."
+  },
+  "Project2": {
+    "title": "Netflix-Clone",
+    "domain":"React-JS",
+    "desc": "Netflix Clone is a project built to understand the building blocks of React JS framework and using Axios to perform Networking along with simple state management with useState hooks to implement UI similar to Netflix."
+  },
+  "Project3": {
+    "title": "Shopping App-Clone",
+    "domain":"Flutter, HTTP",
+    "desc": "Shopping App-Clone is a Hybrid Mobile Application built using Flutter SDK to mimic the functionalities of a shopping application. The application did not include transaction management and auth but included features of carts. The State of the Application was managed using Velocity X "
+  },
+  "Project4": {
+    "title": "E-Vote",
+    "domain":"Flutter, Blockchain",
+    "desc": "A decentralized and transparent Blockchain-based voting application, built with Flutter as the UI framework, a Solidity Smart contract as the Backend and MaticVigil Sidechain as the Database (Blockchain)."
+  }
+}

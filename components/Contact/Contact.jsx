@@ -116,10 +116,13 @@ const Contact = () => {
             <p className="py-12 px-5 my-4 text-[#250940]">Bangalore, India.</p>
           </div>
                 </a>
+                <div>
+      <p className="text-justify px-5 text-[#250940]">Magna velit in ullamco dolor. Ad est officia id nulla culpa cupidatat enim qui magna Lorem dolor occaecat cupidatat pariatur. Quis ullamco nostrud consectetur elit ut qui laboris ad. Enim irure culpa in dolore labore velit quis. Ipsum reprehenderit quis dolor dolor elit non esse.</p>
+    </div>
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12 ">
+        <div className="flex justify-center py-12  ">
           <Link href="/">
             <div className="flex flex:row justify-between items-center rounded-full bg-[#afb5f9] shadow-lg shadow-purple-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsChevronDoubleUp className="text-[#250940]" size={25} />
@@ -133,6 +136,8 @@ const Contact = () => {
             MADE with ❤️ by VDX.
         </p>
     </div>
+
+    
     </div>
   );
 };
