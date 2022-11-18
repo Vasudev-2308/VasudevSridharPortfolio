@@ -36,16 +36,16 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/#home" scroll={false} >
-        <Image
-          src="/../public/Assets/Logo2.png"
-          alt="/"
-          width="125"
-          height="70"
-          className="cursor-pointer py-2"
-        />
+        <Link href="/#home" scroll={false}>
+          <Image
+            src="/../public/Assets/Logo2.png"
+            alt="/"
+            width="125"
+            height="70"
+            className="cursor-pointer py-2"
+          />
         </Link>
-        
+
         <div>
           <ul className="hidden md:flex px-5">
             <Link href="/#home" scroll={false}>

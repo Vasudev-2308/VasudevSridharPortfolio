@@ -15,14 +15,16 @@ const Hero = () => {
           </h1>
 
           <h1 className="py-4 px-2 text-[#ecf0f3]">
-            A <span className="text-yellow-300 underline">Software Engineer</span> &{" "}
-            <span className="text-rose-600 underline">Musician.</span>
+            A{" "}
+            <span className="text-yellow-300 underline">Software Engineer</span>{" "}
+            & <span className="text-rose-600 underline">Musician.</span>
           </h1>
           <p className="pt-4 uppercase my-2 text-xl tracking-widest text-[#ecf0f3] ">
             A Coder, Musician and Epistemophile.
           </p>
           <p className="uppercase my-2 text-xl tracking-widest text-[#ecf0f3] ">
-            Software Engineer @<span className="text-rose-600">Unisys INDIA</span>.
+            Software Engineer @
+            <span className="text-rose-600">Unisys INDIA</span>.
           </p>
           <div className="flex flex-row items-center justify-center ">
             <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
@@ -30,7 +32,9 @@ const Hero = () => {
                 <FiMapPin size="20" />
               </div>
             </a>
-            <p className="py-12 px-5 my-4 text-blue-300 uppercase underline">Bangalore, India.</p>
+            <p className="py-12 px-5 my-4 text-blue-300 uppercase underline">
+              Bangalore, India.
+            </p>
           </div>
 
           <div className="flex justify-around sm:justify-around items-center max-w-[530px] m-auto py-4">

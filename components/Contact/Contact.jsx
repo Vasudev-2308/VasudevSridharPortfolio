@@ -5,7 +5,7 @@ import Contacts from "../../Constants/links.json";
 import { BsChevronDoubleUp } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import {TbBookDownload} from 'react-icons/tb';
+import { TbBookDownload } from "react-icons/tb";
 import { FiMapPin } from "react-icons/fi";
 import workImg from "../../public/Assets/work.png";
 import Link from "next/link";
@@ -72,11 +72,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full bg-[#afb5f9] shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image
-                  className="rounded-xl"
-                  src={workImg}
-                  alt="img"
-                />
+                <Image className="rounded-xl" src={workImg} alt="img" />
               </div>
 
               <div>
@@ -134,8 +130,10 @@ const Contact = () => {
               </div>
 
               <div className="my-4 flex flex-row justify-center items-center rounded-full shadow-lg shadow-gray-600 bg-gradient-to-r from-[#5651e5] to-[#5651e5] p-5 cursor-pointer hover:scale-105 ease-in duration-300 w-full">
-                <a href="" className="px-4">Download Resume</a>
-                <TbBookDownload/>
+                <a href="" className="px-4">
+                  Download Resume
+                </a>
+                <TbBookDownload />
               </div>
             </div>
           </div>
