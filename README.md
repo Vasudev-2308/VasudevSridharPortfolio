@@ -2,7 +2,7 @@
 
 This is a Portfolio Website for myself written using Next.JS
 
-This portfolio provides details on things I have built, my knowledge on trending tech, my resume and contact. 
+This portfolio provides details on things I have built, my knowledge on trending tech, my resume and contact.
 
 <!-- ## Deploy on Vercel
 

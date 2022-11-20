@@ -114,9 +114,9 @@ const Contact = () => {
                   <div className="rounded-full bg-green-900 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FiMapPin size="20" />
                   </div>
-                  <p className="py-12 px-5 my-4 text-[#250940]">
+                  <address className="py-12 px-5 my-4 text-[#250940]">
                     Bangalore, India.
-                  </p>
+                    </address>
                 </div>
               </a>
               <div>

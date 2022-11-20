@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -38,13 +39,22 @@ const About = () => {
             </a>
           </p>
         </div>
-        <div className="">
-          <img
-            class=" m-auto shadow-xl bg-gray-100 shadow-white rounded-full flex  justify center items-center p-4 hover:scale-105 ease-in duration-300 "
-            src="https://avatars.githubusercontent.com/u/56473514?v=4"
-            alt="Vdx's Image"
-          />
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, scale: 1, transition: { delay: 0.5 } }}
+          viewport={{ once: true }}
+          whileHover={{
+            scale: [1, 1.2, 1.1],
+          }}
+        >
+          <div className="">
+            <img
+              class=" m-auto shadow-xl bg-gray-100 shadow-white rounded-full flex  justify center items-center p-4 "
+              src="https://avatars.githubusercontent.com/u/56473514?v=4"
+              alt="Vdx's Image"
+            />
+          </div>
+        </motion.div>
       </div>
     </div>
   );
