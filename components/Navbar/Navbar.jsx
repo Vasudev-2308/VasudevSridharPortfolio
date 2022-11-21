@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -49,22 +50,22 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex px-5">
             <Link href="/#home" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">//Home</li>
             </Link>
             <Link href="/#about" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">//About Me</li>
             </Link>
             <Link href="/#skills" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">//Skills</li>
             </Link>
             <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects & Accomplishments
+                //Projects
               </li>
             </Link>
             <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
+                //Contact
               </li>
             </Link>
           </ul>

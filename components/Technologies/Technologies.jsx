@@ -9,7 +9,7 @@ const Technologies = () => {
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className=" uppercase text-[#ecf0f3] text-xl tracking-widest ">
-          //Skill Showcase
+          //Skills
         </p>
         <h1 className="py-4">What all can i do ?</h1>
         <p className="py-4 uppercase text-[#ecf0f3] text-xl tracking-widest mx-4">
