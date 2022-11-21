@@ -129,6 +129,11 @@ const Contact = () => {
                 </p>
               </div>
 
+              <div className="p-6 text-[#250940]">
+                <p>How active am I on Github : </p>
+                <img className=" py-6 m-auto flex justify-center" src="https://camo.githubusercontent.com/dd553e07747bdef4c664b4ac8e2642a63b4bbfab4a17b58211f5d2b28da8f456/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d766173756465762d32333038" alt="" />
+              </div>
+
               <div className="my-4 flex flex-row justify-center items-center rounded-full shadow-lg shadow-gray-600 bg-gradient-to-r from-[#5651e5] to-[#5651e5] p-5 cursor-pointer hover:scale-105 ease-in duration-300 w-full">
                 <a href="" className="px-4">
                   Download Resume
