@@ -37,34 +37,34 @@ const Navbar = () => {
     >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home" scroll={false}>
-          <Image
-            src="/../public/Assets/Logo2.png"
-            alt="/"
-            width="125"
-            height="70"
-            className="cursor-pointer py-2"
-          />
+          <p className="m-2 text-[30px] md:text-[40px] lg:text-[50px] font-bold">.VDX()</p>
         </Link>
 
         <div>
           <ul className="hidden md:flex px-5">
             <Link href="/#home" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">//Home</li>
+              <li className="ml-10 text-lg uppercase hover:border-b">
+                .Home()
+              </li>
             </Link>
             <Link href="/#about" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">//About Me</li>
+              <li className="ml-10 text-lg uppercase hover:border-b">
+                .About_Me()
+              </li>
             </Link>
             <Link href="/#skills" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">//Skills</li>
+              <li className="ml-10 text-lg uppercase hover:border-b">
+                .Skills()
+              </li>
             </Link>
             <Link href="/#projects" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                //Projects
+              <li className="ml-10 text-lg uppercase hover:border-b">
+                .Projects()
               </li>
             </Link>
             <Link href="/#contact" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                //Contact
+              <li className="ml-10 text-lg uppercase hover:border-b">
+                .Contact()
               </li>
             </Link>
           </ul>
@@ -90,13 +90,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex justify-between items-center">
-              <Image
-                src="/../public/Assets/Logo2.png"
-                alt="/"
-                width="105"
-                height="65"
-                className="cursor-pointer py-2"
-              />
+            <p className="text-[30px] font-bold">.VDX()</p>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -111,24 +105,28 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="">
               <Link href="/#home">
-                <li className="py-4 text-sm uppercase hover:border-b">Home</li>
+                <li className="py-4 text-sm uppercase hover:border-b">
+                  .Home()
+                </li>
               </Link>
               <Link href="/#about">
-                <li className="py-4 text-sm uppercase hover:border-b">About</li>
+                <li className="py-4 text-sm uppercase hover:border-b">
+                  .About_Me()
+                </li>
               </Link>
               <Link href="/#skills">
                 <li className="py-4 text-sm uppercase hover:border-b">
-                  Skills
+                  .Skills()
                 </li>
               </Link>
               <Link href="/#projects">
                 <li className="py-4 text-sm uppercase hover:border-b">
-                  Projects & Accomplishments
+                  .Projects()
                 </li>
               </Link>
               <Link href="/#contact">
                 <li className="py-4 text-sm uppercase hover:border-b">
-                  Contact
+                  .Contact()
                 </li>
               </Link>
             </ul>
