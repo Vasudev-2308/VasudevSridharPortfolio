@@ -3,14 +3,13 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { RiMenu3Line } from "react-icons/ri";
-import { SiGmail } from "react-icons/si";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+
 import { AiOutlineClose } from "react-icons/ai";
 import Contacts from "../../Constants/links.json";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#250940");
+  const navBg = "#250940";
 
   const handleNav = () => {
     setNav(!nav);

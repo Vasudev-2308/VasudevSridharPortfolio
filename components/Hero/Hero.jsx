@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import {animations, motion} from 'framer-motion';
+import {motion} from 'framer-motion';
 import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";

@@ -11,54 +11,8 @@ import workImg from "../../public/Assets/work.png";
 import Link from "next/link";
 
 const Contact = () => {
-  const [email, setEmail] = useState("John.Doe@example.com");
-  const [name, setName] = useState("John Doe");
-  const [number, setNumber] = useState("70xxxxxxxx");
-  const [subject, setSubject] = useState("You Rock Buddy");
-  const [message, setMessage] = useState("Wanna Collab ?");
 
-  let handleName = (evnt) => {
-    let inputVal = evnt.target.value;
-    setName(inputVal);
-  };
 
-  let handleEmail = (evnt) => {
-    let inputVal = evnt.target.value;
-    setEmail(inputVal);
-  };
-  let handleSubject = (evnt) => {
-    let inputVal = evnt.target.value;
-    setSubject(inputVal);
-  };
-  let handlePh = (evnt) => {
-    let inputVal = evnt.target.value;
-    setNumber(inputVal);
-  };
-  let handleMessage = (evnt) => {
-    let inputVal = evnt.target.value;
-    setMessage(inputVal);
-  };
-
-  const sendMail = async (e) => {
-    e.preventDefault();
-
-    const results = await fetch("/pages/api/communicate", {
-      method: "POST",
-      body: JSON.stringify({
-        email: email,
-        phno: number,
-        name: name,
-        sub: subject,
-        msg: message,
-      }),
-    });
-
-    if (results.status == 200) {
-      alert(`Thanks ${name}, your message has been successfully sent to Vdx`);
-    } else {
-      alert("Failed to Send the mail");
-    }
-  };
 
   return (
     <div id="contact" className="w-full lg:h-screen ">
