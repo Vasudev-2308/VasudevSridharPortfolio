@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 Constants/links.json
+Constants/info.json
 
 # dependencies
 /node_modules
