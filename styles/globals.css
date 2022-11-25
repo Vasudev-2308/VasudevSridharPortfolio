@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@100;300;400;700&display=swap");
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Roboto Mono', monospace ;
+  font-family: "Montserrat", sans-serif;
 }
 
 @layer base {
   body {
     @apply bg-[#250940] text-[#ecf0f3] tracking-wide;
-    
   }
 
   h1,
@@ -22,8 +20,7 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold text-[#ecf0f3];
-    
+    @apply font-semibold text-[#ecf0f3];
   }
 
   h1 {
