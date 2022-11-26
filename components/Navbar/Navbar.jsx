@@ -11,25 +11,26 @@ const Navbar = () => {
 
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg]  = useState("1F1F24");  // 
+  const [navBg, setNavBg]  = useState("#292C2F");  // 
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  useEffect(() => {
+  
+
+  useEffect(() => { 
     const handleShadow = () => {
       if (window.scrollY >= 90) {
         setShadow(true);
-        setNavBg("#292C2F")
         } 
         else {
         setShadow(false);
-        setNavBg("#1F1F24")
       }
     };
-    window.addEventListener("scroll", handleShadow);
-  }, []);
+    
+    window.addEventListener("scroll", handleShadow ),  []
+  });
 
 
   return (
