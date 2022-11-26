@@ -6,6 +6,8 @@ import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
+import BackgroundAnimation from "../components/BackgroundAnimation";
+
 
 <style jsx global>{`
   html,
@@ -27,7 +29,7 @@ export default function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet"/>
         <title>Vdx's Portfolio</title>
       </Head>
-      <Navbar />
+      <Navbar />   
       <Hero />
       <About />
       <Technologies />

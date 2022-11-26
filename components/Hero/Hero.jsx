@@ -7,16 +7,12 @@ import Contacts from "../../Constants/links.json";
 
 const Hero = () => {
   return (
-    <div id="home" className="w-full h-screen text-center ">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center">
-        <div className="mt-16">
-          <div >
+        <div>
+          <div>
             <h1 className="py-4 text-[#ecf0f3]">
-              Hello!!
-            </h1>
-
-            <h1 className="py-4 text-[#ecf0f3] cursor-pointer ">
-            I'm <span className="text-green-600">Vasudeva.</span>
+              Hello, I'm <span className="text-green-600">Vasudeva.</span>
             </h1>
 
             <h1 className="py-4 px-2 text-[#ecf0f3]">

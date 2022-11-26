@@ -7,11 +7,14 @@
 html {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
+  
+  
 }
 
 @layer base {
   body {
     @apply bg-[#250940] text-[#ecf0f3] tracking-wide;
+    
   }
 
   h1,
@@ -24,7 +27,7 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Montserrat];
   }
 
   h2 {
