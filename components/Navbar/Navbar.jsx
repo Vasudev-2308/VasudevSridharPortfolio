@@ -9,7 +9,7 @@ import Contacts from "../../Constants/links.json";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const navBg = "#250940";
+  const navBg = "#292C2F";
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,7 +31,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl shadow-purple-700 z-[100] ease-in-out duration-300"
+          ? "fixed w-full h-20 shadow-xl shadow-gray-700 z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }
     >
@@ -84,8 +84,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#250940] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#250940] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#292C2F] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#292C2F] p-10 ease-in duration-500"
           }
         >
           <div>

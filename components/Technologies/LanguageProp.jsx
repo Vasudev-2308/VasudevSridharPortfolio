@@ -3,7 +3,7 @@ import React from "react";
 
 const LanguageProp = ({ image, title, alt }) => {
   return (
-    <div className="p-4 shadow-xl shadow-purple-700 bg-[#afb5f9] rounded-xl hover:scale-110 ease-in duration-300">
+    <div className="p-4 shadow-xl shadow-gray-700 bg-[#afb5f9] rounded-xl hover:scale-110 ease-in duration-300">
       <div className="justify-between items-center flex ">
         <div className="m-auto">
           <Image src={image} alt={alt} width="64" height="64" />

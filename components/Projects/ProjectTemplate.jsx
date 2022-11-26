@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProjectTemplate = ({ image, title, domain, desc }) => {
   return (
-    <div className="relative flex items-center justify-center shadow-xl shadow-purple-700 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
+    <div className="relative flex items-center justify-center shadow-xl shadow-gray-700 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ">
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={image}

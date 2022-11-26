@@ -100,7 +100,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12  ">
           <Link href="/">
-            <div className="flex flex:row justify-between items-center rounded-full bg-[#afb5f9] shadow-lg shadow-purple-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="flex flex:row justify-between items-center rounded-full bg-[#afb5f9] shadow-lg shadow-gray-300 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsChevronDoubleUp className="text-[#250940]" size={25} />
               <p className="px-2 text-[#250940]">Scroll to top</p>
             </div>
