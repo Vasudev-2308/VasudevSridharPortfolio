@@ -5,7 +5,7 @@ import LanguageProp from "./LanguageProp";
 
 const Technologies = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
+    <div id="skills" className="w-full lg:h-screen p-2 mt-16">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className=" uppercase text-[#ecf0f3] text-xl tracking-widest ">
           //Skills

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16 ">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16 mt-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 ">
         <div className="col-span-2 mx-3">
           <p className=" uppercase text-[#ecf0f3] text-xl tracking-widest">
@@ -38,22 +38,14 @@ const About = () => {
             </a>
           </p>
         </div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1, scale: 1, transition: { delay: 0.5 } }}
-          viewport={{ once: true }}
-          whileHover={{
-            scale: [1, 1.2, 1.1],
-          }}
-        >
+       
           <div className="">
             <img
-              class=" m-auto shadow-xl bg-gray-100 shadow-white rounded-full flex  justify center items-center p-4 "
+              className=" m-auto shadow-xl bg-gray-100 shadow-white rounded-full flex justify center items-center p-4 hover:scale-105 ease-in duration-300"
               src="https://avatars.githubusercontent.com/u/56473514?v=4"
               alt="Vdx's Image"
             />
           </div>
-        </motion.div>
       </div>
     </div>
   );

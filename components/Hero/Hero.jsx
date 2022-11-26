@@ -11,11 +11,10 @@ const Hero = () => {
       <div className="max-w-[1240px] w-full h-full m-auto p-2 flex justify-center items-center">
         <div>
           <div>
-            <div className="my-12">
-            <h1 className=" py-4 text-[#ecf0f3]">
+            <h1 className="lg:mt-12 mt-[50%] py-4 text-[#ecf0f3]">
               Hello, I'm <span className="text-green-600">Vasudeva.</span>
             </h1>
-            </div>
+            
 
             <h1 className="py-4 px-2 text-[#ecf0f3]">
               A{" "}
@@ -39,7 +38,7 @@ const Hero = () => {
               <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FiMapPin size="20" />
                 <address className="px-5 text-[#fff] not-italic uppercase">
-                  Bangalore, India.
+                  Bangalore.
                 </address>
               </div>
             </a>

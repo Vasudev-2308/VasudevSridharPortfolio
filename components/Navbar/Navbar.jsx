@@ -1,15 +1,17 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { RiMenu3Line } from "react-icons/ri";
-
 import { AiOutlineClose } from "react-icons/ai";
-import Contacts from "../../Constants/links.json";
 const Navbar = () => {
+
+  /* . const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3'); */
+
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const navBg = "#292C2F";
+  const [navBg, setNavBg]  = useState("1F1F24");  // 
 
   const handleNav = () => {
     setNav(!nav);
@@ -19,12 +21,16 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
         setShadow(true);
-      } else {
+        setNavBg("#292C2F")
+        } 
+        else {
         setShadow(false);
+        setNavBg("#1F1F24")
       }
     };
     window.addEventListener("scroll", handleShadow);
   }, []);
+
 
   return (
     <div
@@ -78,14 +84,14 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-[#1F1F24]" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#292C2F] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#292C2F] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#1F1F24] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#1F1F24] p-10 ease-in duration-500"
           }
         >
           <div>

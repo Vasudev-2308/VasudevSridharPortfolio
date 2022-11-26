@@ -9,7 +9,7 @@ import ProjectTemplate from "./ProjectTemplate";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
+    <div id="projects" className="w-full mt-16">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#ecf0f3]">
           //Projects

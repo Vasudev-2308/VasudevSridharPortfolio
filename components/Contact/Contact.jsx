@@ -66,7 +66,7 @@ const Contact = () => {
               <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                 <FiMapPin size="20" />
                 <address className="px-5 text-[#fff] not-italic uppercase">
-                  Bangalore, India.
+                  Bangalore.
                 </address>
               </div>
             </a>
