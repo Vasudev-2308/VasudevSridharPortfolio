@@ -60,18 +60,18 @@ const Contact = () => {
                   </div>
                 </a>
               </div>
-              <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
+
               <div className="flex flex-row items-center justify-center m-16">
-            <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
-              <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FiMapPin size="20" />
-                <address className="px-5 text-[#fff] not-italic uppercase">
-                  Bangalore.
-                </address>
+                <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
+                  <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FiMapPin size="20" />
+                    <address className="px-5 text-[#fff] not-italic uppercase">
+                      Bangalore.
+                    </address>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-              </a>
+
               <div>
                 <p className="text-justify px-5 text-[#250940]">
                   Magna velit in ullamco dolor. Ad est officia id nulla culpa
