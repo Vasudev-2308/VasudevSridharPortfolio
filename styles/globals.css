@@ -6,13 +6,11 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Montserrat', sans-serif;
 }
 
 @layer base {
   body {
     @apply bg-[#1F1F24] text-[#ecf0f3] tracking-wide;
-    font-family: 'Montserrat', sans-serif;
   }
 
   h1,

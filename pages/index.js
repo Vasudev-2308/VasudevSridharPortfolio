@@ -10,12 +10,7 @@ import Contact from "../components/Contact/Contact";
 <style jsx global>{`
   html,
   body {
-    padding: 0;
-    margin: 0;
     font-family: 'Montessrat', sans-serif;
-  }
-  * {
-    box-sizing: border-box;
   }
 `} </style>
 

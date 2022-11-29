@@ -1,11 +1,8 @@
 # Welcome to My Portfolio
 
-This is a Portfolio Website for myself written using Next.JS
+## This is a Portfolio Website for myself written using Next.JS
 
-This portfolio provides details on things I have built, my knowledge on trending tech, my resume and contact.
-
-This line is added just to maintain the streak due to emergeny will delete 
-it later 
+### This portfolio provides details on things I have built, my knowledge on trending tech, my resume and contact.
 
 <!-- ## Deploy on Vercel
 
