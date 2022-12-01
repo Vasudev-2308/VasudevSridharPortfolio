@@ -11,7 +11,7 @@ const Technologies = () => {
           //Skills
         </p>
         <h1 className="py-4">What all can i do ?</h1>
-        <p className="py-4 uppercase text-[#ecf0f3] text-xl tracking-widest mx-4">
+        <p className="py-4 uppercase text-[#ecf0f3] text-xl tracking-widest mx-4 underline">
           Languages
         </p>
 
@@ -58,7 +58,7 @@ const Technologies = () => {
           />
         </div>
 
-        <p className="py-6 uppercase text-[#ecf0f3] text-xl tracking-widest mx-4">
+        <p className="py-6 uppercase text-[#ecf0f3] text-xl tracking-widest mx-4 underline">
           Frameworks and Tools
         </p>
 
