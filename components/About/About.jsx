@@ -39,7 +39,7 @@ const About = () => {
           </p>
         </div>
        
-          <div className="">
+          <div className="hover:animate-pulse skew-y-0">
             <img
               className=" m-auto shadow-xl bg-gray-100 shadow-white rounded-full flex justify center items-center p-4 hover:scale-105 ease-in duration-300"
               src="https://avatars.githubusercontent.com/u/56473514?v=4"

@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full bg-[#afb5f9] shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image className="rounded-xl" src={workImg} alt="img" />
+                <Image className="rounded-xl shadow-lg shadow-gray-500" src={workImg} alt="img" />
               </div>
 
               <div>
@@ -85,7 +85,7 @@ const Contact = () => {
               <div className="p-6 text-[#250940]">
                 <p>How active am I on Github : </p>
                 <img
-                  className=" py-6 m-auto flex justify-center"
+                  className=" py-6 m-auto flex justify-center hover:scale-105 ease-in duration-300"
                   src="https://camo.githubusercontent.com/dd553e07747bdef4c664b4ac8e2642a63b4bbfab4a17b58211f5d2b28da8f456/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d766173756465762d32333038"
                   alt=""
                 />
