@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
+
 
 const About = () => {
-  const size = 25;
+  
   return (
     <div
       id="about"
@@ -21,20 +21,26 @@ const About = () => {
               <li>
                 
                 <p className="my-2 py-2 px-12 text-justify  text-md text-[#ecf0f3]">
-                  A Software Engineer Working in Unisys
+                  Software Engineer Currently Working @ Unisys
                 </p>
               </li>
 
               <li>
                 <p className="my-2 py-2  px-12 text-justify  text-md text-[#ecf0f3]">
-                  {"<A Code Enthusiast../>"}
+                  {"<Code Enthusiast />"}
+                </p>
+              </li>
+
+              <li>
+                <p className="my-2 py-2  px-12 text-justify  text-md text-[#ecf0f3]">
+                  Part Time Musician with the love for Composing & Creating new Music.
                 </p>
               </li>
 
               <li>
                 <p className="my-2 py-2 px-12 text-justify  text-md text-[#ecf0f3]">
-                  Currently Exploring on EDGE COMPUTING,AI & Learning new
-                  Everyday!!
+                  Currently Exploring on Edge Computing, AI & Learning Something New
+                  Almost Everyday!!
                 </p>
               </li>
 
