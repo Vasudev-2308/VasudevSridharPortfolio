@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Image from "next/image";
 import React from "react";
@@ -28,7 +29,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="py-2 text-[#250940] text-center">Vasudeva. S</h2>
-                <p className="uppercase text-[#250940] text-center">
+                <p className="uppercase text-[#250940] text-center underline">
                   Software Engineer
                 </p>
                 <p className="text-[#250940] text-center ">
@@ -66,7 +67,7 @@ const Contact = () => {
                   <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FiMapPin size="20" />
                     <address className="px-5 text-[#fff] not-italic uppercase">
-                      Bangalore.
+                      Bangalore
                     </address>
                   </div>
                 </a>
@@ -74,11 +75,7 @@ const Contact = () => {
 
               <div>
                 <p className="text-justify px-5 text-[#250940]">
-                  Magna velit in ullamco dolor. Ad est officia id nulla culpa
-                  cupidatat enim qui magna Lorem dolor occaecat cupidatat
-                  pariatur. Quis ullamco nostrud consectetur elit ut qui laboris
-                  ad. Enim irure culpa in dolore labore velit quis. Ipsum
-                  reprehenderit quis dolor dolor elit non esse.
+                I presently work for Unisys as a software engineer who also dabbles in design and music. I'm very interested in learning new things and dissecting difficult ideas into simpler ones so that I can comprehend them better. I enjoy creating websites and apps. Enjoy creating exciting type-level experiments and programming code in Dart, C++, Java, and Python.
                 </p>
               </div>
 
