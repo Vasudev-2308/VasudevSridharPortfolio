@@ -15,7 +15,7 @@ const Projects = () => {
           //Projects
         </p>
         <h1 className="py-4">What all have i built ?</h1>
-        <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
           <ProjectTemplate
           image={agroBuddy}
           domain={Project.Project1.domain}
