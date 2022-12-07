@@ -89,7 +89,7 @@ const Contact = () => {
               </div>
 
               <div className="my-4 flex flex-row justify-center items-center rounded-full shadow-lg shadow-gray-600 bg-gradient-to-r from-[#5651e5] to-[#5651e5] p-5 cursor-pointer hover:scale-105 ease-in duration-300 w-full">
-                <a href="" className="px-4">
+                <a download href="/files/Vasudev_Resume.pdf" className="px-4">
                   Download Resume
                 </a>
                 <TbBookDownload />

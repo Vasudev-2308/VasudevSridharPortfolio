@@ -36,7 +36,5 @@ html {
     @apply cursor-pointer;
   }
 
-  button {
-    @apply shadow-xl border-gray-400 shadow-gray-400 rounded-lg uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
-  }
+  
 }
