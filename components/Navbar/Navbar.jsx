@@ -4,34 +4,29 @@ import Link from "next/link";
 import { RiMenu3Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 const Navbar = () => {
-
   /* . const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3'); */
 
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg]  = useState("#292C2F");  // 
+  const [navBg, setNavBg] = useState("#292C2F"); //
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  
-
-  useEffect(() => { 
+  useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
         setShadow(true);
-        } 
-        else {
+      } else {
         setShadow(false);
       }
     };
-    
-    window.addEventListener("scroll", handleShadow ),  []
-  });
 
+    window.addEventListener("scroll", handleShadow), [];
+  });
 
   return (
     <div
@@ -44,7 +39,9 @@ const Navbar = () => {
     >
       <div className="flex justify-between flex-row items-center w-full h-full px-2 2xl:px-16">
         <Link href="/#home" scroll={false}>
-          <p className="m-2 text-[30px] md:text-[40px] lg:text-[50px] font-bold">.VDX()</p>
+          <p className="m-2 text-[30px] md:text-[40px] lg:text-[50px] font-bold">
+            .VDX()
+          </p>
         </Link>
 
         <div>
@@ -97,10 +94,10 @@ const Navbar = () => {
         >
           <div>
             <div className="flex justify-between items-center">
-            <p className="text-[30px] font-bold">.VDX()</p>
+              <p className="text-[30px] font-bold">.VDX()</p>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className={`rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer`}
               >
                 <AiOutlineClose size={17} />
               </div>
@@ -112,27 +109,42 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="">
               <Link href="/#home">
-                <li className="py-4 text-sm uppercase hover:border-b">
+                <li
+                  className="py-4 text-sm uppercase hover:border-b"
+                  onClick={handleNav}
+                >
                   .Home()
                 </li>
               </Link>
               <Link href="/#about">
-                <li className="py-4 text-sm uppercase hover:border-b">
+                <li
+                  className="py-4 text-sm uppercase hover:border-b"
+                  onClick={handleNav}
+                >
                   .About_Me()
                 </li>
               </Link>
               <Link href="/#skills">
-                <li className="py-4 text-sm uppercase hover:border-b">
+                <li
+                  className="py-4 text-sm uppercase hover:border-b"
+                  onClick={handleNav}
+                >
                   .Skills()
                 </li>
               </Link>
               <Link href="/#projects">
-                <li className="py-4 text-sm uppercase hover:border-b">
+                <li
+                  className="py-4 text-sm uppercase hover:border-b"
+                  onClick={handleNav}
+                >
                   .Projects()
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="py-4 text-sm uppercase hover:border-b">
+                <li
+                  className="py-4 text-sm uppercase hover:border-b"
+                  onClick={handleNav}
+                >
                   .Contact()
                 </li>
               </Link>
