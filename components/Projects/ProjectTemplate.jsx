@@ -14,7 +14,7 @@ const ProjectTemplate = ({ image, title, domain, desc }) => {
           {title}
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{domain}</p>
-        <p className="text-justify py-3 text-white text-md">{desc}</p>
+        <p className="text-justify py-3 text-white text-sm">{desc}</p>
       </div>
     </div>
   );
