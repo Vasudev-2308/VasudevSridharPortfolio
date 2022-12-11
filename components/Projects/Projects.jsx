@@ -17,28 +17,33 @@ const Projects = () => {
         <h1 className="py-4">What all have i built ?</h1>
         <div className="grid md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
           <ProjectTemplate
-          image={agroBuddy}
-          domain={Project.Project1.domain}
-          title={Project.Project1.title}
-          desc={Project.Project1.desc}
+            image={agroBuddy}
+            domain={Project.Project1.domain}
+            title={Project.Project1.title}
+            desc={Project.Project1.desc}
+            link="/Agrobuddy"
           />
           <ProjectTemplate
-          image={netflixClone}
-          domain={Project.Project2.domain}
-          title={Project.Project2.title}
-          desc={Project.Project2.desc}
+            image={netflixClone}
+            domain={Project.Project2.domain}
+            title={Project.Project2.title}
+            desc={Project.Project2.desc}
+            link="/NetflixClone"
+          />
+          
+          <ProjectTemplate
+            image={shoppingApp}
+            domain={Project.Project3.domain}
+            title={Project.Project3.title}
+            desc={Project.Project3.desc}
+            link="/ShoppingApp"
           />
           <ProjectTemplate
-          image={eVote}
-          domain={Project.Project3.domain}
-          title={Project.Project3.title}
-          desc={Project.Project3.desc}
-          />
-          <ProjectTemplate
-          image={shoppingApp}
-          domain={Project.Project4.domain}
-          title={Project.Project4.title}
-          desc={Project.Project4.desc}
+            image={eVote}
+            domain={Project.Project4.domain}
+            title={Project.Project4.title}
+            desc={Project.Project4.desc}
+            link="/Evote"
           />
         </div>
       </div>
