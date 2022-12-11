@@ -38,6 +38,13 @@ const Contact = () => {
                 <p className="text-[#250940] text-center ">
                   Ph: +91 7090602915
                 </p>
+
+                <div className="flex flex-row mb-4 mt-2 justify-center cursor:pointer">
+                    <FiMapPin size="20" className="text-[#250940]" />
+                    <address className="px-5 text-[#250940] not-italic uppercase">
+                      Bangalore
+                    </address>
+                  </div>
               </div>
               <div className="flex items-center  justify-around py-4 m-auto max-w-[530px]  ">
                 <a href={Contacts.linkedin} target="_blank" rel="noreferrer">
@@ -62,16 +69,6 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="flex flex-row items-center justify-center m-16">
-                <a href="https://www.google.com/maps/place/Vidyaranyapura,+Bengaluru,+Karnataka/@13.0812416,77.5378909,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x3bae1670c9b44e6d:0xf8dfc3e8517e4fe0!2sBengaluru,+Karnataka!3b1!8m2!3d12.9715987!4d77.5945627!3m4!1s0x3bae229f7a8debe1:0x4d80f1d259c7e7ac!8m2!3d13.0810667!4d77.556181">
-                  <div className="flex flex-row  rounded-full  bg-green-700 shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FiMapPin size="20" />
-                    <address className="px-5 text-[#fff] not-italic uppercase">
-                      Bangalore
-                    </address>
-                  </div>
-                </a>
-              </div>
 
               <div>
                 <p className="text-justify px-5 text-[#250940]">
@@ -82,7 +79,7 @@ const Contact = () => {
               <div className="p-6 text-[#250940]">
                 <p className="underline">How active am I on Github : </p>
                 <img
-                  className=" py-6 m-auto flex justify-center hover:scale-105 ease-in duration-300"
+                  className=" py-6 m-auto flex justify-center"
                   src="https://camo.githubusercontent.com/dd553e07747bdef4c664b4ac8e2642a63b4bbfab4a17b58211f5d2b28da8f456/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d766173756465762d32333038"
                   alt=""
                 />
@@ -106,9 +103,11 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+      <marquee behavior="scroll" direction="right">
       <div className="bottom-0 w-full items-center text-white py-6 flex justify-center">
         <p className="uppercase text-white text-xl">MADE with ❤️ by VDX...</p>
       </div>
+      </marquee>
     </div>
   );
 };
