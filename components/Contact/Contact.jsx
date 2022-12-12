@@ -103,11 +103,9 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-      <marquee behavior="scroll" direction="right">
       <div className="bottom-0 w-full items-center text-white py-6 flex justify-center">
         <p className="uppercase text-white text-xl">MADE with ❤️ by VDX...</p>
       </div>
-      </marquee>
     </div>
   );
 };
