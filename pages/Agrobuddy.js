@@ -6,20 +6,12 @@ import Link from 'next/link';
 import ProjectPage from '../components/ProjectPage/ProjectPageTemplate';
 const Agrobuddy = () => {
   return (
-    <div>
       <ProjectPage
       imgsrc={agroBuddy}
       title = {Project.Project1.title}
       domain = {Project.Project1.domain}
       desc = {Project.Project1.desc}
     />
-    <p>
-      
-    </p>
-
-    </div>
-    
-    
   )
 }
 
