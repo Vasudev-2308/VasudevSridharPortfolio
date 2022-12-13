@@ -104,7 +104,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="bottom-0 w-full items-center text-white py-6 flex justify-center">
-        <p className="uppercase text-white text-xl">MADE with ❤️ by VDX...</p>
+        <p className="uppercase select-none underline text-white text-xl">MADE with ❤️ by VDX...</p>
       </div>
     </div>
   );

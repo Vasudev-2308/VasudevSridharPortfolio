@@ -4,12 +4,10 @@
 
  This portfolio provides details on things I have built, my knowledge on trending tech, my resume and contact.
 
- My Portfolio is Available here at 👉🏻 https://vasudev-sridhar-portfolio.vercel.app/
+ My Portfolio is Available here at 👉🏻 [My Portfolio](https://vasudev-sridhar-portfolio.vercel.app/)
 
-<img src = "public/ReadmeImgs/Hero.png"/>
-<img src = "public/ReadmeImgs/About.png"/>
-<img src = "public/ReadmeImgs/Skills.png"/>
-<img src = "public/ReadmeImgs/Projects.png"/>
-<img src = "public/ReadmeImgs/Contact.png"/>
-
-
+![Hero](public/ReadmeImgs/Hero.png)
+![About](public/ReadmeImgs/About.png)
+![Skills](public/ReadmeImgs/Skills.png)
+![Projects](public/ReadmeImgs/Projects.png)
+![Contact](public/ReadmeImgs/Contact.png)
